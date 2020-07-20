@@ -20,6 +20,10 @@ Verifying Proxy Configuration:
 <img src="screenshots_demo/3.png" width="300" height="600">
 
 ## Usage
+You can build the project yourself or download the apk from the releases page then install it:
+
+`> adb install apksneeze-mobile.apk`
+
 To give the app access to change the proxy settings, the WRITE_SECURE_SETTINGS permission is required. And it can be granted through ADB like so:
 
 `> adb shell pm grant com.humoud.apksneeze android.permission.WRITE_SECURE_SETTINGS`
